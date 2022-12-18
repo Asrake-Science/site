@@ -1,0 +1,46 @@
+{
+  "name": "www.asrake.com",
+  "version": "2.0.0",
+  "description": "A RESTful API for using noblox.js",
+  "author": "suufi <suufi@mit.edu>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint .",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@hapi/boom": "^9.1.2",
+    "@koa/router": "^10.0.0",
+    "axios": "^1.1.2",
+    "co-views": "^2.1.0",
+    "dotenv": "^8.2.0",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "https": "^1.0.0",
+    "koa": "^2.13.1",
+    "koa-404-handler": "^0.0.2",
+    "koa-better-error-handler": "^7.0.1",
+    "koa-bodyparser": "^4.3.0",
+    "koa-cors": "^0.0.16",
+    "koa-joi-router": "^7.0.0",
+    "koa-sslify": "^5.0.0",
+    "koa-static": "^5.0.0",
+    "noblox.js": "^4.12.0",
+    "node": "^18.9.0",
+    "npm": "^8.19.1",
+    "openssl": "^2.0.0",
+    "swig": "^1.4.2",
+    "twitter-api-v2": "^1.12.9"
+  },
+  "devDependencies": {
+    "eslint": "^7.23.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1"
+  },
+  "bugs": {
+    "url": "https://github.com/noblox/noblox.js/issues"
+  },
+  "homepage": "https://github.com/noblox/www.asrake.com"
+}

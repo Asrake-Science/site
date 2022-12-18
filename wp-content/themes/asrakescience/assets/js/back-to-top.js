@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[746],{714:function(e,t,n){n.r(t),n.d(t,{default:function(){return s}});class s{constructor(e){this._element=e,this.bindEvents()}bindEvents(){this._element.addEventListener("click",(()=>{window.scroll({top:0,behavior:"smooth"})}))}}}}]);
