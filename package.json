@@ -1,8 +1,8 @@
 {
   "name": "www.asrake.com",
   "version": "2.0.0",
-  "description": "A RESTful API for using noblox.js",
-  "author": "suufi <suufi@mit.edu>",
+  "description": "voa an stuff",
+  "author": "info@asrake.com",
   "license": "MIT",
   "scripts": {
     "lint": "eslint .",
@@ -11,7 +11,6 @@
   "dependencies": {
     "@hapi/boom": "^9.1.2",
     "@koa/router": "^10.0.0",
-    "axios": "^1.1.2",
     "co-views": "^2.1.0",
     "dotenv": "^8.2.0",
     "fs": "^0.0.1-security",
@@ -40,7 +39,7 @@
     "eslint-plugin-promise": "^4.3.1"
   },
   "bugs": {
-    "url": "https://github.com/noblox/noblox.js/issues"
+    "url": "https://github.com/asrake-science/site/issues"
   },
-  "homepage": "https://github.com/noblox/www.asrake.com"
+  "homepage": "https://github.com/asrake-science/site"
 }

@@ -14,7 +14,7 @@ const errorHandler = require('koa-better-error-handler')
 const koa404Handler = require('koa-404-handler')
 const Boom = require('@hapi/boom')
 const bodyParser = require('koa-bodyparser')
-const { default: axios } = require('axios');
+//const { default: axios } = require('axios');
 const { allowedNodeEnvironmentFlags } = require('process');
 const koaCors = require('koa-cors')
 
@@ -33,6 +33,7 @@ const koaOptions = {
   origin: true,
   credentials: true
 };
+
 
 router.get("/", async(ctx, next) => 
   koastatic(`${__dirname}/website/pages`)(
